@@ -173,5 +173,9 @@ public class GameStateManager : MonoBehaviour
         }
         else return;
     }
+    public void Back()
+    {
+        SetState(previousState);
+    }
 
 }

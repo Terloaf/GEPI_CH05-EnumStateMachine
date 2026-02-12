@@ -41,6 +41,7 @@ public class UiManager : MonoBehaviour
     public void ShowGameOverUI()
     {
         HideAllMenus();
+       
         gameOverUI.SetActive(true);
     }
 
